@@ -4,7 +4,12 @@ hr{
 h1{
   text-align: center;
 }
-  .full-container1, .full-container2,  .full-container3{
+
+h2.number{
+  text-align: center;
+  font-size: 2rem;
+}
+  .full-container1, .full-container2,  .full-container3, .full-container4{
     width: 75%;
     margin: auto;
     display: flex;
@@ -12,7 +17,8 @@ h1{
     justify-content: center;
   }
   /* card 1 */
-  .container{
+
+  .card1-container{
     text-align: center;
   }
   
@@ -20,18 +26,22 @@ h1{
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
     width: 20%;
-    margin: 40px;
+    margin: 20px;
 
   }
+  .card1-title{
+    font-size: 1.2rem;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+  }
   
+
   .card1:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
     cursor: pointer;
   }
-  
-  .container {
-    padding: 2px 16px;
-  }
+
   
   /* card 2 */
   .card2-container{
@@ -77,4 +87,35 @@ h1{
   
   .card3-container {
     padding: 2px 16px;
+  }
+
+    /* card 4 */
+
+  .card4-container{
+    position: relative;
+    min-height: 500px;
+    width: 30%;
+    border: grey solid .5px;
+    border-radius: 0px 0px 15px 15px;
+    transition: none;
+    margin: 6px;
+    background-color: rgb(242 241 241 / 80%);
+  }
+  
+  .card4-image{
+    position: relative;
+  }
+  
+  .card4-text{
+    padding: 15px;
+  }
+  
+  .card4-title{
+    font-size: 1.2rem;
+    text-align: center;
+    color: #000;
+    padding-bottom: 15px;
+  }
+  .card4-body{
+    padding: 10px;
   }
