@@ -1,6 +1,16 @@
 hr{
     margin: 30px
   }
+h1{
+  text-align: center;
+}
+  .full-container1, .full-container2,  .full-container3{
+    width: 75%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
   /* card 1 */
   .container{
     text-align: center;
@@ -9,11 +19,14 @@ hr{
   .card1 {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
-    width: 33.3%;
+    width: 20%;
+    margin: 40px;
+
   }
   
   .card1:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    cursor: pointer;
   }
   
   .container {
@@ -28,12 +41,15 @@ hr{
   .card2 {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
-    width: 33.3%;
+    width: 25%;
     padding: 5px;
+    margin: 20px;
+    
   }
   
   .card2:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    cursor: pointer;
   }
   
   /* card 3 */
@@ -49,12 +65,14 @@ hr{
   .card3 {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
-    width: 33.3%;
+    width: 28%;
+    margin: 20px;
     position: relative;
   }
   
   .card3:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    cursor: pointer;
   }
   
   .card3-container {
