@@ -242,3 +242,74 @@ text-decoration: underline;
 cursor: pointer;
 box-shadow: 0 6px 10px 0 rgba(0,0,0,0.2);
 }
+
+
+/* Card 8 */
+
+.card8-title {
+  font-weight: bold;
+  color: #000000;
+  line-height: 1.2;
+  font-size: 30px;
+  letter-spacing: 0.25px;
+  word-wrap: break-word;
+  margin-bottom: 0.5rem
+}
+
+.card8-subtitle {
+  color: #6c757d;
+  line-height: 1.2;
+  font-size: 15px;
+  letter-spacing: 0.25px;
+  word-wrap: break-word;
+}
+
+.card8 {
+  background-color: #ffffff;
+  width: 25%;
+  height: 25%;
+  padding: 1rem 1rem;
+  margin: 10px;
+  border-radius: 12px;
+  box-shadow: 0 1px 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+.card8-img {
+  width: 100%;
+  border-radius: 25px;
+  max-height: 15.625rem;
+  object-fit: cover;
+}
+
+.card8-header {
+  padding: 0.5rem 1rem;
+}
+
+.card8-body {
+  padding: 1rem 1rem;
+  margin-bottom: 1rem;
+}
+
+.card8-footer {
+  padding: 0.5rem 1rem;
+}
+
+.card8-footer .card8-btn {
+  width: 100%;
+  height: 2.5rem;
+  padding: 8px;
+  font-weight: 700;
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 1.25px;
+  background-color: #1f2aff;
+  color: #ffffff;
+  border-radius: 25px;
+  border-style: none;
+}
+
+.card8-btn:hover{
+  cursor: pointer;
+  background-color: #000acf;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
